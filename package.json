@@ -8,7 +8,10 @@
     "start": "node dist/main.js"
   },
   "imports": {
-    "#*": "./src/*"
+    "#*": {
+      "development": "./src/*",
+      "default": "./dist/*"
+    }
   },
   "dependencies": {
     "cookie-parser": "^1.4.7",

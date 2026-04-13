@@ -1,0 +1,861 @@
+[
+  {
+    "id": "1",
+    "login": "admin@mail.com",
+    "password": "admin123",
+    "role": "admin",
+    "name": "Администратор",
+    "image": null,
+    "company_id": "1",
+    "refresh_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjEiLCJsb2dpbiI6ImFkbWluQG1haWwuY29tIiwicm9sZSI6ImFkbWluIiwibmFtZSI6ItCQ0LTQvNC40L3QuNGB0YLRgNCw0YLQvtGAIiwiaWF0IjoxNzc2MDgzNDc3LCJleHAiOjE3Nzg2NzU0Nzd9.NNkR0272dvz71w3YREu3D_wXxiX8_9KF_ccK3LIXkXk",
+    "chat_history": [
+      {
+        "id": "1776082513788",
+        "role": "user",
+        "content": "Как Сергею увеличить свой общий балл",
+        "createdAt": "2026-04-13T12:15:13.788Z"
+      },
+      {
+        "id": "1776082513789",
+        "role": "assistant",
+        "content": "У Сергея 23/100. Проблема не в “тонкой настройке”, а в базовой дисциплине: ноль по скорости ответа, почти ноль по активности и чеку. Из-за этого теряем около 200 000 руб/мес.\n\nПричина: либо нет ежедневного плана и контроля, либо человек не тянет роль.\n\nДействия на 10 рабочих дней\n1) Скорость ответа: правило 5 минут на входящий, иначе лид уходит Ивану/Алексею. Цель: поднять скорость с 0/10 до 6/10.\n2) Активность: 40 касаний/день (звонки+письма), 10 новых ЛПР в день. Отчет в CRM до 18:30. Цель: с 5/15 до 10/15.\n3) Конверсия: 2 прослушки звонков в день со мной/РОПом, правим скрипт под вагоны/комплектуху. Цель: конверсия с 8/25 до 12/25.\n4) Средний чек: запрет “просто вагон” без допов. В каждом КП 2 позиции доп.комплектующих. Цель: с 0/5 до 2/5.\n\nКонтроль: ежедневный созвон 10 минут, на 10-й день решение: оставляем с планом или выводим из продаж. 1",
+        "createdAt": "2026-04-13T12:15:13.788Z"
+      }
+    ],
+    "settings": {
+      "avg_check": "",
+      "leads": "",
+      "conversion": "",
+      "response": "",
+      "deal_cycle": ""
+    }
+  },
+  {
+    "id": "2",
+    "login": "ivan@mail.com",
+    "password": "ivan123",
+    "role": "manager",
+    "name": "Иван",
+    "image": null,
+    "company_id": "1",
+    "refresh_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjIiLCJsb2dpbiI6Iml2YW5AbWFpbC5jb20iLCJyb2xlIjoibWFuYWdlciIsIm5hbWUiOiLQmNCy0LDQvSIsImlhdCI6MTc3NjA4MzI3NiwiZXhwIjoxNzc4Njc1Mjc2fQ.EKXalQY_WPF0q0hl3pihAQOlFw7G-ABxzfLx9911o8Y",
+    "chat_history": [
+      {
+        "id": "1776023130798",
+        "role": "user",
+        "content": "Подскажи как мне увеличить скорость ответа",
+        "createdAt": "2026-04-12T19:45:30.798Z"
+      },
+      {
+        "id": "1776023130799",
+        "role": "assistant",
+        "content": "Скорость ответа у тебя уже 10/10. Деньги теряешь не тут, а из-за недозагрузки: примерно 80 000 руб/мес недобираешь из-за нехватки входящих и встреч.\n\nЧто делать, чтобы удержать скорость и добрать выручку:\n1) Добери поток: 20 новых исходящих касаний в день (звонки/сообщения) по теплой базе и рефералам.\n2) Введи правило: первый контакт с новым лидом до 5 минут, дальше 3 попытки за 24 часа.\n3) Слоты в календаре: 2 окна в день под быстрые созвоны по 30 минут.\n\nРезультат: +10–15 лидов/неделя, это закроет недозагрузку и вернет те самые 80 000 руб/мес.",
+        "createdAt": "2026-04-12T19:45:30.798Z"
+      }
+    ],
+    "settings": {
+      "avg_check": "",
+      "leads": "",
+      "conversion": "",
+      "response": "",
+      "deal_cycle": ""
+    },
+    "dynamic": 10,
+    "status": "normally",
+    "potential_loss": -80000,
+    "problem": "Недозагрузка",
+    "scores": {
+      "conversion": 25,
+      "revenue": 20,
+      "activity": 15,
+      "response_speed": 10,
+      "stage_conversion": 10,
+      "avg_check": 5,
+      "deal_duration": 5,
+      "rejection_rate": 5,
+      "stuck_deals": 5,
+      "total": 79
+    },
+    "score_label": "результат в норме",
+    "loss_reason": "из-за недозагрузки",
+    "score_delta": "+10% (+8 баллов)",
+    "metrics": [
+      {
+        "title": "Конверсия",
+        "score": 82,
+        "status": "good",
+        "comment": "хороший показатель"
+      },
+      {
+        "title": "Выручка",
+        "score": 75,
+        "status": "good",
+        "comment": "стабильный результат"
+      },
+      {
+        "title": "Активность",
+        "score": 40,
+        "status": "normal",
+        "comment": "следует быть активнее"
+      },
+      {
+        "title": "Скорость ответа",
+        "score": 90,
+        "status": "good",
+        "comment": "отличная скорость"
+      },
+      {
+        "title": "Конверсия по этапам",
+        "score": null,
+        "status": "normal",
+        "comment": "стабильный показатель"
+      },
+      {
+        "title": "Средний чек",
+        "score": 60,
+        "status": "normal",
+        "comment": "есть потенциал для роста"
+      }
+    ],
+    "score_dynamic_data": {
+      "day": [
+        {
+          "label": "08:00",
+          "value": 75
+        },
+        {
+          "label": "10:00",
+          "value": 77
+        },
+        {
+          "label": "12:00",
+          "value": 76
+        },
+        {
+          "label": "14:00",
+          "value": 78
+        },
+        {
+          "label": "16:00",
+          "value": 79
+        },
+        {
+          "label": "18:00",
+          "value": 79
+        }
+      ],
+      "week": [
+        {
+          "label": "Пн",
+          "value": 71
+        },
+        {
+          "label": "Вт",
+          "value": 73
+        },
+        {
+          "label": "Ср",
+          "value": 75
+        },
+        {
+          "label": "Чт",
+          "value": 77
+        },
+        {
+          "label": "Пт",
+          "value": 78
+        },
+        {
+          "label": "Сб",
+          "value": 79
+        },
+        {
+          "label": "Вс",
+          "value": 79
+        }
+      ],
+      "month": [
+        {
+          "label": "1",
+          "value": 65
+        },
+        {
+          "label": "5",
+          "value": 68
+        },
+        {
+          "label": "10",
+          "value": 71
+        },
+        {
+          "label": "15",
+          "value": 74
+        },
+        {
+          "label": "20",
+          "value": 76
+        },
+        {
+          "label": "25",
+          "value": 78
+        },
+        {
+          "label": "30",
+          "value": 79
+        }
+      ]
+    }
+  },
+  {
+    "id": "3",
+    "login": "petr@mail.com",
+    "password": "petr123",
+    "role": "manager",
+    "name": "Петр",
+    "image": null,
+    "company_id": "1",
+    "refresh_token": "",
+    "chat_history": [],
+    "settings": {
+      "avg_check": "",
+      "leads": "",
+      "conversion": "",
+      "response": "",
+      "deal_cycle": ""
+    },
+    "dynamic": -5,
+    "status": "low",
+    "potential_loss": -120000,
+    "problem": "Низкая скорость ответа клиентам",
+    "scores": {
+      "conversion": 15,
+      "revenue": 10,
+      "activity": 10,
+      "response_speed": 3,
+      "stage_conversion": 5,
+      "avg_check": 3,
+      "deal_duration": 3,
+      "rejection_rate": 3,
+      "stuck_deals": 3,
+      "total": 55
+    },
+    "score_label": "результат ниже нормы",
+    "loss_reason": "из-за низкой скорости ответа",
+    "score_delta": "-5% (-5 баллов)",
+    "metrics": [
+      {
+        "title": "Конверсия",
+        "score": 50,
+        "status": "normal",
+        "comment": "есть потенциал для роста"
+      },
+      {
+        "title": "Выручка",
+        "score": 45,
+        "status": "normal",
+        "comment": "нужно нарастить объём"
+      },
+      {
+        "title": "Активность",
+        "score": 55,
+        "status": "normal",
+        "comment": "следует быть активнее"
+      },
+      {
+        "title": "Скорость ответа",
+        "score": 20,
+        "status": "bad",
+        "comment": "долгий ответ — цель: 2 мин"
+      },
+      {
+        "title": "Конверсия по этапам",
+        "score": null,
+        "status": "bad",
+        "comment": "отказы на финальной стадии"
+      },
+      {
+        "title": "Средний чек",
+        "score": 50,
+        "status": "normal",
+        "comment": "прокачать апселлы"
+      }
+    ],
+    "score_dynamic_data": {
+      "day": [
+        {
+          "label": "08:00",
+          "value": 60
+        },
+        {
+          "label": "10:00",
+          "value": 58
+        },
+        {
+          "label": "12:00",
+          "value": 57
+        },
+        {
+          "label": "14:00",
+          "value": 56
+        },
+        {
+          "label": "16:00",
+          "value": 55
+        },
+        {
+          "label": "18:00",
+          "value": 55
+        }
+      ],
+      "week": [
+        {
+          "label": "Пн",
+          "value": 62
+        },
+        {
+          "label": "Вт",
+          "value": 60
+        },
+        {
+          "label": "Ср",
+          "value": 59
+        },
+        {
+          "label": "Чт",
+          "value": 57
+        },
+        {
+          "label": "Пт",
+          "value": 56
+        },
+        {
+          "label": "Сб",
+          "value": 55
+        },
+        {
+          "label": "Вс",
+          "value": 55
+        }
+      ],
+      "month": [
+        {
+          "label": "1",
+          "value": 68
+        },
+        {
+          "label": "5",
+          "value": 65
+        },
+        {
+          "label": "10",
+          "value": 63
+        },
+        {
+          "label": "15",
+          "value": 61
+        },
+        {
+          "label": "20",
+          "value": 59
+        },
+        {
+          "label": "25",
+          "value": 57
+        },
+        {
+          "label": "30",
+          "value": 55
+        }
+      ]
+    }
+  },
+  {
+    "id": "4",
+    "login": "sergey@mail.com",
+    "password": "sergey123",
+    "role": "manager",
+    "name": "Сергей",
+    "image": null,
+    "company_id": "1",
+    "refresh_token": "",
+    "chat_history": [],
+    "settings": {
+      "avg_check": "",
+      "leads": "",
+      "conversion": "",
+      "response": "",
+      "deal_cycle": ""
+    },
+    "dynamic": -18,
+    "status": "critical",
+    "potential_loss": -200000,
+    "problem": "Критически низкая конверсия и активность",
+    "scores": {
+      "conversion": 8,
+      "revenue": 5,
+      "activity": 5,
+      "response_speed": 0,
+      "stage_conversion": 5,
+      "avg_check": 0,
+      "deal_duration": 0,
+      "rejection_rate": 0,
+      "stuck_deals": 0,
+      "total": 23
+    },
+    "score_label": "критический результат",
+    "loss_reason": "из-за низкой конверсии и активности",
+    "score_delta": "-18% (-15 баллов)",
+    "metrics": [
+      {
+        "title": "Конверсия",
+        "score": 20,
+        "status": "bad",
+        "comment": "критически низкая конверсия"
+      },
+      {
+        "title": "Выручка",
+        "score": 15,
+        "status": "bad",
+        "comment": "срочно нужен план по выручке"
+      },
+      {
+        "title": "Активность",
+        "score": 18,
+        "status": "bad",
+        "comment": "крайне низкая активность"
+      },
+      {
+        "title": "Скорость ответа",
+        "score": 0,
+        "status": "bad",
+        "comment": "нет ответов на входящие"
+      },
+      {
+        "title": "Конверсия по этапам",
+        "score": null,
+        "status": "bad",
+        "comment": "воронка не работает"
+      },
+      {
+        "title": "Средний чек",
+        "score": 0,
+        "status": "bad",
+        "comment": "сделки не закрываются"
+      }
+    ],
+    "score_dynamic_data": {
+      "day": [
+        {
+          "label": "08:00",
+          "value": 30
+        },
+        {
+          "label": "10:00",
+          "value": 27
+        },
+        {
+          "label": "12:00",
+          "value": 25
+        },
+        {
+          "label": "14:00",
+          "value": 24
+        },
+        {
+          "label": "16:00",
+          "value": 23
+        },
+        {
+          "label": "18:00",
+          "value": 23
+        }
+      ],
+      "week": [
+        {
+          "label": "Пн",
+          "value": 40
+        },
+        {
+          "label": "Вт",
+          "value": 35
+        },
+        {
+          "label": "Ср",
+          "value": 30
+        },
+        {
+          "label": "Чт",
+          "value": 27
+        },
+        {
+          "label": "Пт",
+          "value": 25
+        },
+        {
+          "label": "Сб",
+          "value": 24
+        },
+        {
+          "label": "Вс",
+          "value": 23
+        }
+      ],
+      "month": [
+        {
+          "label": "1",
+          "value": 55
+        },
+        {
+          "label": "5",
+          "value": 48
+        },
+        {
+          "label": "10",
+          "value": 42
+        },
+        {
+          "label": "15",
+          "value": 36
+        },
+        {
+          "label": "20",
+          "value": 30
+        },
+        {
+          "label": "25",
+          "value": 26
+        },
+        {
+          "label": "30",
+          "value": 23
+        }
+      ]
+    }
+  },
+  {
+    "id": "5",
+    "login": "alexey@mail.com",
+    "password": "alexey123",
+    "role": "manager",
+    "name": "Алексей",
+    "image": null,
+    "company_id": "1",
+    "refresh_token": "",
+    "chat_history": [],
+    "settings": {
+      "avg_check": "",
+      "leads": "",
+      "conversion": "",
+      "response": "",
+      "deal_cycle": ""
+    },
+    "dynamic": 8,
+    "status": "strong",
+    "potential_loss": -30000,
+    "problem": "Небольшие просадки по скорости ответа",
+    "scores": {
+      "conversion": 20,
+      "revenue": 15,
+      "activity": 15,
+      "response_speed": 7,
+      "stage_conversion": 10,
+      "avg_check": 3,
+      "deal_duration": 5,
+      "rejection_rate": 3,
+      "stuck_deals": 5,
+      "total": 83
+    },
+    "score_label": "отличный результат",
+    "loss_reason": "из-за просадок по скорости ответа",
+    "score_delta": "+8% (+7 баллов)",
+    "metrics": [
+      {
+        "title": "Конверсия",
+        "score": 88,
+        "status": "good",
+        "comment": "высокая конверсия"
+      },
+      {
+        "title": "Выручка",
+        "score": 80,
+        "status": "good",
+        "comment": "стабильный рост"
+      },
+      {
+        "title": "Активность",
+        "score": 85,
+        "status": "good",
+        "comment": "хорошая активность"
+      },
+      {
+        "title": "Скорость ответа",
+        "score": 60,
+        "status": "normal",
+        "comment": "небольшие просадки"
+      },
+      {
+        "title": "Конверсия по этапам",
+        "score": null,
+        "status": "good",
+        "comment": "воронка работает хорошо"
+      },
+      {
+        "title": "Средний чек",
+        "score": 55,
+        "status": "normal",
+        "comment": "есть потенциал для роста"
+      }
+    ],
+    "score_dynamic_data": {
+      "day": [
+        {
+          "label": "08:00",
+          "value": 80
+        },
+        {
+          "label": "10:00",
+          "value": 81
+        },
+        {
+          "label": "12:00",
+          "value": 82
+        },
+        {
+          "label": "14:00",
+          "value": 82
+        },
+        {
+          "label": "16:00",
+          "value": 83
+        },
+        {
+          "label": "18:00",
+          "value": 83
+        }
+      ],
+      "week": [
+        {
+          "label": "Пн",
+          "value": 76
+        },
+        {
+          "label": "Вт",
+          "value": 78
+        },
+        {
+          "label": "Ср",
+          "value": 79
+        },
+        {
+          "label": "Чт",
+          "value": 81
+        },
+        {
+          "label": "Пт",
+          "value": 82
+        },
+        {
+          "label": "Сб",
+          "value": 83
+        },
+        {
+          "label": "Вс",
+          "value": 83
+        }
+      ],
+      "month": [
+        {
+          "label": "1",
+          "value": 70
+        },
+        {
+          "label": "5",
+          "value": 73
+        },
+        {
+          "label": "10",
+          "value": 76
+        },
+        {
+          "label": "15",
+          "value": 79
+        },
+        {
+          "label": "20",
+          "value": 81
+        },
+        {
+          "label": "25",
+          "value": 82
+        },
+        {
+          "label": "30",
+          "value": 83
+        }
+      ]
+    }
+  },
+  {
+    "id": "6",
+    "login": "dmitry@mail.com",
+    "password": "dmitry123",
+    "role": "manager",
+    "name": "Дмитрий",
+    "image": null,
+    "company_id": "1",
+    "refresh_token": "",
+    "chat_history": [],
+    "settings": {
+      "avg_check": "",
+      "leads": "",
+      "conversion": "",
+      "response": "",
+      "deal_cycle": ""
+    },
+    "dynamic": -10,
+    "status": "critical",
+    "potential_loss": -160000,
+    "problem": "Высокий процент отказов, низкая активность",
+    "scores": {
+      "conversion": 10,
+      "revenue": 10,
+      "activity": 5,
+      "response_speed": 3,
+      "stage_conversion": 5,
+      "avg_check": 0,
+      "deal_duration": 3,
+      "rejection_rate": 0,
+      "stuck_deals": 3,
+      "total": 39
+    },
+    "score_label": "критический результат",
+    "loss_reason": "из-за высокого процента отказов",
+    "score_delta": "-10% (-8 баллов)",
+    "metrics": [
+      {
+        "title": "Конверсия",
+        "score": 30,
+        "status": "bad",
+        "comment": "низкая конверсия"
+      },
+      {
+        "title": "Выручка",
+        "score": 35,
+        "status": "bad",
+        "comment": "выручка падает"
+      },
+      {
+        "title": "Активность",
+        "score": 20,
+        "status": "bad",
+        "comment": "крайне низкая активность"
+      },
+      {
+        "title": "Скорость ответа",
+        "score": 25,
+        "status": "bad",
+        "comment": "медленный ответ клиентам"
+      },
+      {
+        "title": "Конверсия по этапам",
+        "score": null,
+        "status": "bad",
+        "comment": "высокий процент отказов"
+      },
+      {
+        "title": "Средний чек",
+        "score": 0,
+        "status": "bad",
+        "comment": "средний чек не растёт"
+      }
+    ],
+    "score_dynamic_data": {
+      "day": [
+        {
+          "label": "08:00",
+          "value": 45
+        },
+        {
+          "label": "10:00",
+          "value": 43
+        },
+        {
+          "label": "12:00",
+          "value": 41
+        },
+        {
+          "label": "14:00",
+          "value": 40
+        },
+        {
+          "label": "16:00",
+          "value": 39
+        },
+        {
+          "label": "18:00",
+          "value": 39
+        }
+      ],
+      "week": [
+        {
+          "label": "Пн",
+          "value": 52
+        },
+        {
+          "label": "Вт",
+          "value": 49
+        },
+        {
+          "label": "Ср",
+          "value": 46
+        },
+        {
+          "label": "Чт",
+          "value": 43
+        },
+        {
+          "label": "Пт",
+          "value": 41
+        },
+        {
+          "label": "Сб",
+          "value": 40
+        },
+        {
+          "label": "Вс",
+          "value": 39
+        }
+      ],
+      "month": [
+        {
+          "label": "1",
+          "value": 60
+        },
+        {
+          "label": "5",
+          "value": 56
+        },
+        {
+          "label": "10",
+          "value": 52
+        },
+        {
+          "label": "15",
+          "value": 48
+        },
+        {
+          "label": "20",
+          "value": 45
+        },
+        {
+          "label": "25",
+          "value": 42
+        },
+        {
+          "label": "30",
+          "value": 39
+        }
+      ]
+    }
+  }
+]

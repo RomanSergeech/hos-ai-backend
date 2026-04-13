@@ -4,7 +4,8 @@
   "type": "module",
   "scripts": {
     "dev": "npx nodemon",
-    "build": "tsc"
+    "build": "tsc",
+    "start": "node dist/main.js"
   },
   "imports": {
     "#*": "./src/*"
